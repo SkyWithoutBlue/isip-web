@@ -1,0 +1,68 @@
+@import url(./node_modules/normalize.css/normalize.css);
+
+
+#app{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 65px 80px;
+    justify-content: space-between;
+}
+
+.header__content{
+    display: flex;
+}
+.header__nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.main__content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./public/HG.png');
+    /* background-image: url('./public/BG\ Hero.png'); */
+    object-fit:fill;
+}
+.personal-acc{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+.title{
+    display: flex;
+    position: absolute;
+    padding: 200px 500px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    color: white;
+}
+.rect{
+    position: absolute;
+    display: flex   ;
+    width: 80px;
+    height: 4px;
+    margin: 145px 500px;
+    background-color: #FBD784;
+}
+.afterrect{
+color: #FBD784;
+display: flex;
+margin: 131px 600px;
+font-size: 30px;
+position: absolute;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+}
